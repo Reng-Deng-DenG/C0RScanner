@@ -21,7 +21,7 @@ def get_filename(filename):
         array  = file.readlines()
         file.close()
     except:
-        print('Unable to open this file :{} '.format(filename))
+        print('Unable to open this file : {} '.format(filename))
         exit();
 
     i = 0
